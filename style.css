@@ -1,0 +1,102 @@
+
+body {
+  background-color :#E0E2DB;
+  font-family: 'Roboto', sans-serif;
+  color : #575F7D
+}
+
+h1 {
+  font-size: 32px ;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 24px ;
+  line-height: 1.6;
+}
+
+h3 {
+  color : #187498
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px ;
+  line-height: 1.6;
+  word-spacing: 0.3 em;
+  margin: 20px;
+}
+
+#link-awesome {
+  color : white;
+  background-color: #0E9594;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+}
+
+#link-awesome:hover {
+  color : black
+}
+
+
+a {
+  color : rgb(146, 149, 153);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black
+}
+
+#profile-pic {
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+  box-shadow: Opx 4px 16px rgba(0,0,0,7%);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  margin: 20px;
+  padding: 50px 50px 50px 50px;
+  border: 1px solid rgb(238, 241, 245);
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,7%);
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 320px;
+  }
+}
